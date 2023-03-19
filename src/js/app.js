@@ -1,9 +1,3 @@
-import GameSavingLoader from './GameSavingLoader';
+import GameSavingLoader from './gamesavingloader';
 
-(async () => {
-  try {
-    console.log(await GameSavingLoader.load());
-  } catch (err) {
-    console.log(err);
-  }
-})();
+GameSavingLoader.load().then((result) => result, (error) => error);

@@ -1,1 +1,0 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/4ufgj539ggkdqksp?svg=true)](https://ci.appveyor.com/project/Andrey09123/async-2)
